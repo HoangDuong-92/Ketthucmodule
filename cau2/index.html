@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trả về mảng yêu cầu</title>
+</head>
+<body>
+<script>
+    function tryRemoveFromArray(arr,x) {
+        let count = 0;
+        for(let i=0;i<arr.length;i++){
+            if(x < arr[i]){
+                count++;
+            }
+        }
+        return count;
+    }
+</script>
+</body>
+</html>

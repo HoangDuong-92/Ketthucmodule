@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tìm giá trị lớn nhất</title>
+</head>
+<body>
+<script>
+    function findMax(arr) {
+        let x = [5,8,9,6,4,7];
+        let max = arr[0];
+        let index = 0;
+        for (let i = 0;i<arr.length;i++){
+            if (max < arr[i]){
+                max = arr[i];
+                index = i;
+            }
+
+        }document.write(max);
+    }
+</script>
+</body>
+</html>
